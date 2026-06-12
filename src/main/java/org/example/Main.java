@@ -4,6 +4,9 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        // Google "Coinbase WebSocket API BTC-USD"
+        // "Coinbase WebSocket API BTC-USD"
+        //polling vs web socket
+        //polling - discrete
+        //web socket - keeps flowing
     }
 }
