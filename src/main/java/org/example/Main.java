@@ -5,8 +5,5 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         // "Coinbase WebSocket API BTC-USD"
-        //polling vs web socket
-        //polling - discrete
-        //web socket - keeps flowing
     }
 }
