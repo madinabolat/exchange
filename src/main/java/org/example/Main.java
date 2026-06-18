@@ -5,5 +5,6 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         // "Coinbase WebSocket API BTC-USD"
+        //https://docs.cdp.coinbase.com/coinbase-app/advanced-trade-apis/guides/websocket
     }
 }
