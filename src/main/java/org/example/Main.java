@@ -12,6 +12,8 @@ public class Main {
         //https://www.coinbase.com/advanced-trade/spot/BTC-USD
         //https://exchange.coinbase.com/trade/BTC-USD
 
+        //ERD: https://app.diagrams.net/#G1hgrhV9jOj7XXqAWOdYGd38nnsdbiwwSs#%7B%22pageId%22%3A%2208UJjrRjVVuL9m5ZP48K%22%7D
+        
         OrderStorage orderStorage = new OrderStorage();
         CoinbaseWebSocketClient coinbaseWebSocketClient = new CoinbaseWebSocketClient(orderStorage);
         coinbaseWebSocketClient.connect();
