@@ -6,14 +6,12 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         // "Coinbase WebSocket API BTC-USD"
         //https://docs.cdp.coinbase.com/coinbase-app/advanced-trade-apis/guides/websocket
-        //https://docs.cdp.coinbase.com/coinbase-app/advanced-trade-apis/websocket/websocket-channels
-        //https://docs.cdp.coinbase.com/coinbase-app/advanced-trade-apis/websocket/websocket-overview
         // Market Data Endpoint: wss://advanced-trade-ws.coinbase.com
         //https://www.coinbase.com/advanced-trade/spot/BTC-USD
         //https://exchange.coinbase.com/trade/BTC-USD
 
         //ERD: https://app.diagrams.net/#G1hgrhV9jOj7XXqAWOdYGd38nnsdbiwwSs#%7B%22pageId%22%3A%2208UJjrRjVVuL9m5ZP48K%22%7D
-        
+
         OrderStorage orderStorage = new OrderStorage();
         CoinbaseWebSocketClient coinbaseWebSocketClient = new CoinbaseWebSocketClient(orderStorage);
         coinbaseWebSocketClient.connect();
