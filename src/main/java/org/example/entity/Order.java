@@ -1,9 +1,6 @@
-package org.example;
+package org.example.entity;
 
 import com.google.gson.annotations.SerializedName;
-
-import java.time.Instant;
-import java.time.LocalDateTime;
 
 public class Order {
 

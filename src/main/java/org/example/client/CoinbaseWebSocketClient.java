@@ -1,10 +1,12 @@
-package org.example;
+package org.example.client;
 
+import org.example.storage.OrderStorage;
+import org.example.entity.Order;
+import org.example.parser.OrderParser;
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.handshake.ServerHandshake;
 
 import java.net.URI;
-import java.util.ArrayList;
 import java.util.List;
 
 public class CoinbaseWebSocketClient extends WebSocketClient {

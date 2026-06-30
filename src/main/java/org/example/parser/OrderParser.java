@@ -1,6 +1,7 @@
-package org.example;
+package org.example.parser;
 
 import com.google.gson.*;
+import org.example.entity.Order;
 
 import java.util.ArrayList;
 import java.util.List;

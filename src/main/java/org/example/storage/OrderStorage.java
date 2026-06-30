@@ -1,4 +1,6 @@
-package org.example;
+package org.example.storage;
+
+import org.example.entity.Order;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -24,9 +26,4 @@ public class OrderStorage {
         return new ArrayList<>(orderQueue);
     }
 
-    public void printOrders(){
-        for (Order order : orderQueue){
-            System.out.println(order);
-        }
-    }
 }
