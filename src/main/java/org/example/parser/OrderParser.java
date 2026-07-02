@@ -13,6 +13,10 @@ public class OrderParser {
         this.gson = new Gson();
     }
 
+
+    //think about snapshot vs update
+    //do we need to update this DS?
+
     public List<Order> parse(String message){
         List<Order> ordersList = new ArrayList<>();
         JsonObject jsonObject = JsonParser.parseString(message).getAsJsonObject();
