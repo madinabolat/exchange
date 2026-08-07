@@ -15,5 +15,13 @@ public class Main {
         for (Order order : orderStorage.getOrders()){
             System.out.println(order);
         }
+
+
+        //next step:
+        //orderbook
+        //fix threading
+        //remove adding orders from coinbasewebscoketclient
+
+        //meta: understand: orderstorage queue list arraylist syntax
     }
 }
